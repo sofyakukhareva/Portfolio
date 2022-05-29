@@ -138,7 +138,7 @@ p{
     width:100%;
     z-index:1000;
     margin-top:30%;
-
+    padding-top: 1%;
 
 }
 .works, .contacts{
@@ -199,12 +199,25 @@ line-height: 85px;
     padding: 48px 72px;
     background-color: white;
 }
+.info{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+
+}
+.contact_image{
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../assets/photo.jpg");
+}
 .info h2{
-    margin: 38px 0 110px 110px;
+    margin: 38px 0 20% 0;
     text-decoration: underline;
 }
 .social{
      text-align: center;
+     margin-top: 24px;
 }
 .social a{
     margin-right: 35px;
@@ -235,7 +248,7 @@ line-height: 85px;
   100%{
     background-position: 180px}
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
     h1{
       font-size: 42px;
       line-height: 60px;;
@@ -248,9 +261,6 @@ line-height: 85px;
         line-height: 65px;
         word-wrap: break-word;
     }
-    /* .photo img{
-        min-width: 60%;
-    } */
     .hero_banner{
         position: static;
         height: 300px;
@@ -262,7 +272,7 @@ line-height: 85px;
     }
     .about p{
         width: 80%;
-        margin: 20px auto;
+        margin: 2% auto;
         text-align: justify;
 
     }
