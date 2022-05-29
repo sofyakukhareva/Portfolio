@@ -1,3 +1,5 @@
-window.addEventListener('load', () => {
-    document.querySelector('.loader-container').style.display ="none";
-  })
+window.addEventListener('scroll', () => {  
+    let scrollTop = document.documentElement.scrollTop;
+    console.log(scrollTop);
+    document.getElementById('zoom').style.width = 40 + scrollTop / 5 + '%';
+  });
