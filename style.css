@@ -222,4 +222,14 @@ line-height: 85px;
     .info h2{
         margin-left: 0;
     }
+    .works_list{
+        padding: 47px 0 ;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .wrapper{
+            padding: 47px 0 ;
+            margin: 0 auto;
+            width: 80%;
   }
+}
