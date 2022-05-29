@@ -185,6 +185,7 @@ line-height: 85px;
     }
     h2{
         font-size: 24px;
+        line-height: 65px;
     }
     .item{
         flex-direction: column;
@@ -195,6 +196,8 @@ line-height: 85px;
     .description p{
         width: 100%;
         margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 24px;
     }
     .hero_banner{
         position: static;
