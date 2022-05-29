@@ -10,7 +10,6 @@
   left: 0;
 }
 
-
 .the-arrow.-left > .shaft {
   width: 0;
   background-color: #4c4c4c;
@@ -99,7 +98,6 @@
   display: inline-block;
   color: #4c4c4c;
   font-size: 1.25em;
-  font-style: italic;
   text-decoration: none;
   position: relative;
   -webkit-transition: all 0.2s;
