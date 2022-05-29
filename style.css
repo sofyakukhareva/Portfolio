@@ -179,13 +179,15 @@ line-height: 85px;
 @media only screen and (max-width: 768px) {
     h1{
       font-size: 40px;
+      line-height: 60px;;
     }
     a,p{
-        font-size: 10px;
+        font-size: 12px !important;
     }
     h2{
         font-size: 24px;
         line-height: 65px;
+        word-wrap: break-word;
     }
     .item{
         flex-direction: column;
@@ -210,12 +212,13 @@ line-height: 85px;
     .about p{
         width: 80%;
         margin: 20px auto;
-        text-align: center;
+        text-align: justify;
 
     }
     .hero_description{
         top:30%;
     }
+
     .info h2{
         margin-left: 0;
     }
