@@ -213,11 +213,11 @@ line-height: 85px;
 }
 @media only screen and (max-width: 768px) {
     h1{
-      font-size: 40px;
+      font-size: 42px;
       line-height: 60px;;
     }
     a,p{
-        font-size: 12px !important;
+        font-size: 16px !important;
     }
     h2{
         font-size: 24px;
@@ -226,10 +226,10 @@ line-height: 85px;
     }
     .photo img{
         min-width: 60%;
-        height: 100%;
     }
     .hero_banner{
         position: static;
+        height: 300px;
     }
     .about{
         background-color: white;
@@ -254,9 +254,17 @@ line-height: 85px;
         margin: 0 auto;
         width: 80%;
     }
+    .about .wrapper{
+        padding: 20px;
+    }
     .wrapper{
             padding: 47px 0 ;
             margin: 0 auto;
             width: 80%;
   }
+}
+@media only screen and (max-width: 450px) {
+    h1{
+        font-size: 28px;
+    }
 }
