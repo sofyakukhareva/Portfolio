@@ -38,7 +38,14 @@
     padding-bottom: 3%;
 }
 .wrapper .item{
-    margin:2% 0 3% 0;
+    margin:3% 0 3% 0;
+}
+.small{
+    font-size: 24px !important;
+    margin: 0 !important;
+    width: 80% !important;
+    line-height: normal;
+    text-align: initial !important;
 }
   
 @keyframes fadeInAnimation {
@@ -168,7 +175,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 .item p{
     display: flex;
@@ -212,7 +219,7 @@ line-height: 85px;
     width: 40%;
     background-size: cover;
     background-position: center;
-    background-image: url("../assets/photo.jpg");
+    background-image: url("../assets/photo3.jpg");
 }
 .info h2{
     margin: 38px 0 20% 0;
@@ -235,6 +242,10 @@ line-height: 85px;
 .next{
     text-align: center;
     background-color: white;
+    padding: 26px 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .shine{
  background: linear-gradient(to right, #000000 0, white 10%, #4d4d4d 20%);
@@ -253,6 +264,7 @@ line-height: 85px;
   100%{
     background-position: 180px}
 }
+
 @media only screen and (max-width: 1000px) {
     h1{
       font-size: 42px;
@@ -265,6 +277,9 @@ line-height: 85px;
         font-size: 24px;
         line-height: 65px;
         word-wrap: break-word;
+    }
+    .small{
+        font-size: 14px !important;
     }
     .hero_banner{
         position: static;
@@ -323,10 +338,10 @@ line-height: 85px;
         height: 30%;
     }
     .hero_banner{
-        height: 200px;
+        height: 250px;
     }
     .hero_description{
-        top:25% !important;
+        top:30% !important;
     }
     .info{
         flex-direction: column;
