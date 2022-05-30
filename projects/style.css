@@ -242,10 +242,16 @@ line-height: 85px;
 .next{
     text-align: center;
     background-color: white;
-    padding: 26px 72px;
-    display: flex;
+
+}
+.bottom{
     flex-direction: row;
     justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 26px 0;
+
 }
 .shine{
  background: linear-gradient(to right, #000000 0, white 10%, #4d4d4d 20%);
