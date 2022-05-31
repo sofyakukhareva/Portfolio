@@ -297,25 +297,8 @@ line-height: 85px;
     padding: 26px 0;
 
 }
-.shine{
- background: linear-gradient(to right, #000000 0, white 10%, #4d4d4d 20%);
-  background-position: 0;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 5s infinite linear;
-  animation-fill-mode: forwards;
-  -webkit-text-size-adjust: none;
-}
 .works_list .arrow{
     margin-bottom: 2%;
-}
-@keyframes shine{
-  0%{
-    background-position: 0}
-  60%{
-    background-position: 180px}
-  100%{
-    background-position: 180px}
 }
 .skills{
     display: flex;
