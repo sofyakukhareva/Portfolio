@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Work+Sans&display=swap');
-
 *{
     scroll-behavior: smooth ;
     margin: 0;
@@ -258,7 +257,7 @@ line-height: 85px;
     width: 40%;
     background-size: cover;
     background-position: center;
-    background-image: url("../assets/photo3.w");
+    background-image: url("../assets/photo3.webp");
 }
 .info h2{
     margin: 38px 0 20% 0;
